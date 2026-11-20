@@ -1,0 +1,98 @@
+/*======================GLOBAL RESET=======================*/
+/* Reset some default styles for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Enables smooth scrolling for the entire page*/
+html {
+    scroll-behavior: smooth;
+}
+/*Main page body styling*/
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #3d07ef;
+    color: #e7e1e1f0;
+    padding: 20px;
+}
+
+/*Applies the same font to form controls*/
+input, select, textarea, button {
+    font-family: inherit;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.topbar{
+    min-height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    padding: 15px 4%;
+    background-color: rgb(2, 48, 78);
+    border-bottom: 1px solid rgb(246, 238, 5);
+}
+.brand{
+    display:flex;
+    gap:12px;
+    align-items: center;
+}
+.brand-logo{
+    background:blue;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-weight:bold;
+    font-size:23px;
+}
+.brand h1{
+    color: rgb(0, 30, 255);
+    letter-spacing: 3px;
+
+}
+.brand p{
+    color:bisque;
+    font-size:9px;
+}
+nav{
+    display:flex;
+    gap: 20px;
+}
+nav a{
+    color:blanchedalmond;
+    font: size 13px;
+    text-decoration:none;
+}
+nav a:hover{
+    color: #545454;
+}
+.header-right{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: #39d6a0;
+    font-size: 11px;
+
+}
+.online-dot{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 255, 0);
+    border-radius: 50%;
+}
+#clock{
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    margin-left:10px;
+}
+
+
+
+
